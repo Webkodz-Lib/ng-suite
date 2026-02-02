@@ -24,7 +24,8 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "outputPath": "dist/demo-app",
+            "outputPath": "dist/ng-suite",
+            "index": "src/index.html",
             "baseHref": "/ng-suite/",
             "assets": [
               {

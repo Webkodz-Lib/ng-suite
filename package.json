@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+      "build:cf": "ng build demo-app --configuration production --base-href /ng-suite/",
       "deploy": "ng build demo-app --configuration production --base-href /ng-suite/ && npx angular-cli-ghpages --dir=dist/demo-app"
   },
   "prettier": {

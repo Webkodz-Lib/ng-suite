@@ -41,8 +41,7 @@ jobs:
       # 6. Deploy build output to server
       - name: Deploy to Ubuntu Server
         run: |
-          rsync -avz --delete \
-          dist/demo-app/browser/ \
+          rsync -avz --delete dist/demo-app/ \
           ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/var/www/webkodz/lib/
 
       # 7. Reload Nginx
